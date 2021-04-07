@@ -1,4 +1,4 @@
-# A new API project using Mongoose for a pre-defined Schema, Express
+# A new API project using Mongoose for a pre-defined Schema, Express and React
 ## The API is built
 ### The frontend as well as the logic is remainig
 
