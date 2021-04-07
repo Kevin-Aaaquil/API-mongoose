@@ -77,5 +77,5 @@ router.delete('/api/:id', async (req, res) => {
     }
 });
 
-// Exporting
+// Exporting the Router
 module.exports = router;
