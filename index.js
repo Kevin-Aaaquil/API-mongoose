@@ -21,8 +21,8 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 // Setting up middleware       // one can use body-parser library
-app.use(express.json());
-app.use(express.urlencoded({
+app.use(express.json());        // for datbase and shit
+app.use(express.urlencoded({    // for websites and shit
     extended: true
 }));
 
