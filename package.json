@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "nodemon index.js",
-    "server": "node index.js",
-    "conserv": "node db.js"
+    "server": "node db.js",
+    "start": "node index.js"
   },
   "keywords": [
     "API",
