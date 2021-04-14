@@ -20,6 +20,9 @@ const chalk = require('chalk');
 const dotenv = require('dotenv');
 dotenv.config();
 
+// Setting up html for frontend
+app.use(express.static('public'));
+
 // Setting up middleware       // one can use body-parser library
 app.use(express.json());        // for datbase and shit
 app.use(express.urlencoded({    // for websites and shit
