@@ -18,7 +18,7 @@ const apiSchema = new Schema({
     }
     // add geo location
 },
-    { collection: 'geojson' });
+    { collection: 'modeldb' });
 
 const Geo = mongoose.model("Geo", apiSchema);
 

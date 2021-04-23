@@ -10,7 +10,7 @@ const app = express();
 // connecting to server
 const connect = require('./db');
 
-// Requiring apiroute.js for, you know routes nand shit
+// Requiring apiroute.js for, you know routes and shit
 const routes = require('./api/routes/apiroute');
 
 // Chalk intialized for decoration and shit
@@ -43,7 +43,7 @@ try {
     });
 }
 catch (err) {
-    console.log(error.message);
+    console.log(err.message);
 }
 
 
